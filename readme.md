@@ -26,4 +26,9 @@ or restore from file /database/lmcrm.sql
 $ php artisan db:seed --class=SentinelDatabaseSeeder
 ```
 
+* Add info:
+```sh
+$ php artisan db:seed
+```
+
 ***CreativeMakers***
