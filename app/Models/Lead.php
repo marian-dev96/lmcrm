@@ -33,7 +33,18 @@ class Lead extends EloquentUser {
     #protected $hidden = [
     #    'password', 'remember_token',
     #];
-
+	
+	
+	public function sphere_label(){
+        return $this->hasMany('App\Models\SphereAttr', 'sphere_id', 'sphere_id');
+    }
+	
+	public function sphere_bitmask(){
+        return $this->hasOne('App\Models\SphereBitmask3', 'user_id', 'id')->where('type','=','lead');
+    }
+	
+	
+	
     public function sphere(){
         return $this->hasOne('App\Models\Sphere', 'id', 'sphere_id');
     }

@@ -68,6 +68,8 @@
     <script src="{{ asset('assets/web/js/sb-admin.js')}}"></script>
     @section('script') @show
     <script type="text/javascript" src="{{ asset('assets/web/js/lmcrm.js') }}"></script>
+    
+	<script type="text/javascript" src="{{ asset('assets/web/js/test.js') }}"></script>
 
   <link rel="shortcut icon" href="{!! asset('site/ico/favicon.ico')  !!} ">
 </head>

@@ -11,6 +11,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $this->call(LeadDatabaseSeeder::class);
+        $this->call(SphereAtrrDatabaseSeeder::class);
+        $this->call(SphereAtrrOptionsDatabaseSeeder::class);
+        $this->call(SphereBitmaskDatabaseSeeder::class);
     }
 }
