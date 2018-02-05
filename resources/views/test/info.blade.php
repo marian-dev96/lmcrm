@@ -2,7 +2,7 @@
 	
 	<tr>
 		<th>icon</th>
-		<td>d</td>	
+		<td></td>	
 	</tr>
 	<tr>
 		<th>date</th>
